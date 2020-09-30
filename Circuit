@@ -1,0 +1,33 @@
+#Connections of all the hardware from ARDUINO are as follows:
+
+IR RECIEVER to ARDUINO:
+      G -----> GND
+      R -----> 5V
+      Y -----> PIN 7
+RTC to ARDUINO:
+      SDA -----> SDA
+      SCL -----> SCL
+      GND -----> GND
+      VCC -----> 5V
+LCD DISPLAY to ARDUINO:
+      VSS -----> GND
+      VDD -----> 5.5V
+      Vo  -----> PIN 6
+      Rs  -----> PIN 12
+      Rw  -----> GND
+      E   -----> 11
+      
+      D4  -----> 5
+      D5  -----> 4
+      D6  -----> 3 
+      D7  -----> 2
+      A   -----> 5V
+      K   -----> GND
+LED bulb to ARDUINO:
+      Small wire(-ve) -----> GND
+      Longer wire(+ve)-----> 5V
+       
+NODEMCU to ARDUINO
+      RX   -----> TX
+      TX   -----> RX
+      GND  -----> GND
